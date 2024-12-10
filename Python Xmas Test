@@ -1,0 +1,39 @@
+# Question 16(a) 
+# Name: Izabela Wroclawska
+
+#i & v 
+print("Welcome to the driving licence eligibility checker")
+name = input("What is your name?")
+
+#a variable is being created and the answer will be stored (ii)
+age = int(input("What age are you? "))
+ 
+if ("age >= 17"):
+     print("You entered" ,age, "You are entitled to apply for a driving licence.")
+  
+#iv & v
+elif ("age < 16"):
+     print("You entered" ,age, name, "are not suitable to apply for a driving licence.")
+
+#part vi
+print("Welcome to the driving licence eligibility checker")
+name = input("What is your name?")
+age = int(input("What age are you? "))
+
+if ("age < 17"):
+    print("You entered" ,age, name, "you are not entitled to apply for a driving licence.")
+    
+elif ("age == 17 and age == 74"):
+    print("You entered" ,age, name, "you are entitled for a driving licence.")
+    
+elif ("age > 74"):
+    print("You entered" ,age, name, "you are not to apply for a three year driving licence.")
+
+# Question 16(b) 
+# Name: Izabela Wroclawska
+
+print("Split Bill Calculator")
+bill = int(input("How much is the bill?"))
+people = int(input("How many people?"))
+answer = bill/people
+print("Each person owes", answer)
