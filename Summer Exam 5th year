@@ -1,0 +1,58 @@
+#Q1
+#Q16_A_OL
+#Izabela Wroclawska
+
+value_small_containers = 0.15
+
+number_small_containers = int(input("Please enter how many small conatiners you are returing: "))
+print("The total value of your small containers was:", value_small_containers * number_small_containers) #(i)
+
+value_large_containers = 0.25
+
+number_large_containers = int(input("Please enter how many large conatiners you are returing: ")) 
+print("The total value of your large containers was:", value_large_containers * number_large_containers) #(ii)
+
+total_containers = (value_small_containers * number_small_containers) + (value_large_containers * number_large_containers)
+print("Your grand total was:", total_containers) #(iii)
+
+shopping_bill = float(input("Please enter your shopping bill: "))
+print("Your shopping bill with the deposit return is:", shopping_bill - total_containers) #(iv)
+
+#Q2
+#16_B_HL
+#Izabela Wroclawska
+
+import random
+print("Welcome to my shop")
+total = 0
+item_list = []
+item_prices = []
+
+# while item_list is True:
+#     item_list = input("Please enter the item: ")#couldnt figure out how to use the while loop so improvised
+#     item_list.append()
+
+item_list1 = input("Please enter the item: ")
+item_prices1 = float(input("Please enter the price of the item: "))
+print("The current total is:", item_prices1)
+
+item_list2 = input("Please enter the item: ")
+item_prices2 = float(input("Please enter the price of the item: "))
+print("The current total is:", item_prices1 + item_prices2)
+
+item_list3 = input("Please enter the item: ")
+item_prices3 = float(input("Please enter the price of the item: "))
+print("The current total is:", item_prices1 + item_prices2 + item_prices3)
+
+item_list4 = input("Please enter the item: ")
+item_prices4 = float(input("Please enter the price of the item: "))
+print("The current total is:", item_prices1 + item_prices2 + item_prices3 + item_prices4)
+
+print("Your items are:", item_list1, item_list2, item_list3, item_list4)
+print("The prices are:", item_prices1, item_prices2, item_prices3, item_prices4)
+print("Grand total:", item_prices1 + item_prices2 + item_prices3 + item_prices4) #(i)
+
+print("Your random item to be checked is", random.choice(item_list)) #(ii)
+
+print("The most expensive item is:", )
+print("The cheapest item is: ", ) #(iii)
